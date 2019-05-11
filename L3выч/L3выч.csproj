@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F56290A0-EDD1-4B48-9DB6-A7AB988CDD7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>L3выч</RootNamespace>
+    <AssemblyName>L3выч</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.15.35559, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Music\zedgraph_dll_v515\zedgraph_dll_v5.1.5\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beach_coral_rock_moss_ocean_horizon_2560x1440.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sea_rocks_ocean_fog_79364_2560x1440.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papers.co-vt08-line-fruit-green-nature-pattern-35-3840x2160-4k-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beautiful-pine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nastol.com.ua-158034.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nastol.com.ua-1580341.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iiiiiiiii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-hexagons-mosaic-3d-render-loopable-animation-4k-uhd-3840x2160_hhutrldf__F0000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1235353.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewYorkNewYorkUnitedStates.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oboik.ru_52171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallhaven-256871.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Houses_Skyscrapers_USA_468449.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorod-nyu-york-new-york-ssha-193.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallhaven-2568711.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-york-manhattan-skyline.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ny.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oboik.ru_521711.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewYork.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-york.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallhaven-2568712.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yyy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_static_tumblr_static_drpisub5z5s0k4ow40gkkskkk_focused_v3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_43853623-stock-photo-word-cloud-programming-languages-or.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageForSharing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageForSharing1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_43853623-stock-photo-word-cloud-programming-languages-or1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hfa8rmvlh8hwnrphgadltgkeyyo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\88.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YYR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ppp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6HWOxDEjfIQ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\472fc7e1effd431faeb26b76778b7e5f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2730x1536_px_rain_water_Water_Drops_watercolor-1348913.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\454514.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1Z0rvku06NE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EqTGDifU2nI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_glass_drops_background_84201_1920x1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_static_tumblr_static_drpisub5z5s0k4ow40gkkskkk_focused_v31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\train-crossing-through-railroad-inside-river-wide-77644048.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4545141.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\472fc7e1effd431faeb26b76778b7e5f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\881.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6HWOxDEjfIQ1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_glass_drops_background_84201_1920x12001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iiiiiiiiiiiiiiiiii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f72e12e8ed7bd59.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\274608_gallery.world.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp3081815.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1f984533d330e9c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nature_Desert_Desert_in_Colorado_030222_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canyon_inside_light_4826_1920x1080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nature-1554216967944-6215.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16146.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\look.com.ua-11265.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hhhhhhhhhh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zakat-more-led.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15235290495acf35596b0199.23337431.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chayka_ptica_more_voda_65409_1280x720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_man_made_man_house_lighthouse_sky-23366.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nature_Other_Stones_near_the_shore_031322_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\look.com.ua-255862.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
